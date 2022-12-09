@@ -1,0 +1,126 @@
+.conteiner {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    background-color:rgb(238, 240, 244);
+    position: relative;
+   
+}
+/* ჰედერი დაიწყო  */
+header {
+    max-width: inherit;
+    width: 100%;
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 161px 40px 122px;
+    border: 1px solid rgb(182, 208, 247);
+    border-radius: 0 0 10px 10px;
+    position: relative;
+     position: fixed;
+    top: 0; 
+    z-index: 5;
+    
+} 
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+/* სექცია 1 დაიწყო */
+.section1 {
+    width: 90%;
+   /* margin-top: 100px; */
+    /* margin: 108px auto 155px auto; */
+    
+}
+
+.section1_img {
+    width: 100%;
+    height: 100%;
+}
+
+.section1_p {
+    width: 355px;
+    font-size: 24px;
+    text-align: center;
+ 
+    color: #fdf50e;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+  
+    transform: translate(-50%, -50%);
+
+}
+/* სექცია 2 დაიწყო */
+.section2{
+width: 90%;
+margin: 0 auto 174px auto;
+
+
+}
+
+h3{
+    font-size: 28px;
+    color: #111111;
+    margin-bottom:70px;
+}
+.cards{
+ width: 100%;
+ height: 467px;
+ display: flex;
+ 
+ justify-content: space-between;
+ 
+}
+figure{
+    width: 24%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgb(200, 200, 214);
+    background-color: white;
+   
+ 
+    
+}
+
+figcaption{
+    width: 40%;
+    height: 50%;
+    padding-top: 100px;
+    color: black;
+   
+}
+/* ფუთერი დაიწყო */
+ footer{
+    width: 90%;
+    display: flex;
+   justify-content: space-between;
+   padding-bottom: 25px;
+   margin-left: 75px;
+   background-color: white;
+
+ }
+ .footerlogo{
+    width: 161px;
+    height: 25px;
+    padding-left:88px;
+    
+ }
+
+ h5{
+    font-size: 14px;
+    margin-bottom: 44px;
+    
+ }
+
+.footer_div{
+   color: #111111; 
+}
