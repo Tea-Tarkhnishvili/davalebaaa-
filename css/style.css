@@ -2,125 +2,167 @@
     max-width: 1366px;
     width: 100%;
     margin: 0 auto;
-    background-color:rgb(238, 240, 244);
-    position: relative;
+    padding-top: 200px;
+    background-color: #f6f4f4;
+
+    /* background-color:rgb(238, 240, 244);
+    position: relative; */
    
 }
 /* ჰედერი დაიწყო  */
 header {
     max-width: inherit;
-    width: 100%;
+    width: inherit;
     color: black;
-    background-color: white;
+    background-color: #ffffff;
+    border-radius: 0 0 30px 30px;
+    padding: 40px 0 40px 0;
+    position: fixed;
+    top: 0; 
+    z-index: 2;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 40px 161px 40px 122px;
-    border: 1px solid rgb(182, 208, 247);
-    border-radius: 0 0 10px 10px;
-    position: relative;
-     position: fixed;
-    top: 0; 
-    z-index: 5;
-    
+    justify-content: space-around;
+   border: 1px solid rgb(182, 208, 247);
+  
 } 
 
-ul {
+.header_icons {
     display: flex;
-    align-items: center;
     gap: 55px;
 }
+
 /* სექცია 1 დაიწყო */
 .section1 {
     width: 90%;
-   
-    margin: 108px auto 155px auto;
-    
+    height: 716px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 145px;
+    position: relative;
+    z-index: 1;
+
 }
 
 .section1_img {
-    width: 100%;
-    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .section1_p {
-    width: 355px;
+    width: 354px;
     font-size: 24px;
     text-align: center;
- 
     color: #fdf50e;
     position: absolute;
-    top: 23%;
+    top: 50%;
     left: 50%;
-  
     transform: translate(-50%, -50%);
-
 }
 /* სექცია 2 დაიწყო */
 .section2{
 width: 90%;
-margin: 0 auto 174px auto;
-
+margin: 0 auto;
 
 }
 
 h3{
+    margin-bottom:71px;
     font-size: 28px;
-    color: #111111;
-    margin-bottom:70px;
-}
+} 
+
 .cards{
  width: 100%;
- height: 467px;
+ height: 575px;
  display: flex;
  
  justify-content: space-between;
  
 }
-figure{
+.card {
     width: 24%;
-    height: 100%;
+    height: 467px;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid rgb(200, 200, 214);
-    background-color: white;
    
- 
     
 }
-
-figcaption{
+.card_photo {
     width: 40%;
     height: 50%;
-    padding-top: 100px;
-    color: black;
-   
+    margin-bottom: 50px;
 }
-/* ფუთერი დაიწყო */
- footer{
+
+
+.price_weight {
     width: 90%;
+    height: 136px;
     display: flex;
-   justify-content: space-between;
-   padding-bottom: 25px;
-   margin-left: 75px;
-   background-color: white;
-
- }
- .footerlogo{
-    width: 161px;
-    height: 25px;
-    padding-left:88px;
-    
- }
-
- h5{
-    font-size: 14px;
-    margin-bottom: 44px;
-    
- }
-
-.footer_div{
-   color: #111111; 
+    flex-direction: column;
+    justify-content: space-between;
 }
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.g {
+    font-size: 13px;
+    background-color: #F8F8F8;
+    width: 46%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kg {
+    font-size: 13px;
+    background-color: #E7E7E7;
+    width: 46%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price1 {
+    font-size: 24px;
+    color: #F5621F;
+}
+
+.price {
+    font-size: 24px;
+}
+.cart {
+    color: white;
+    background-color: #74B42C;
+    padding: 10px;
+}
+
+
+
+/* ფუთერი დაიწყო */
+footer {
+    width: 90%;
+    height: 156px;
+    margin: 166px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 14px;
+    margin-bottom: 41px;
+}
+.contact_text{
+    font-size: 12px;
+    margin-bottom: 24px;
+}
+.footer_logo {
+    width: 140px;
+    height: 20px;
+}
+

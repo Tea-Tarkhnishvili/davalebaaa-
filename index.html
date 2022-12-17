@@ -16,16 +16,17 @@
     <div class="conteiner">
         <!-- ჰედერი დაიწყო -->
         <header>
-            <img src="image/zootopia.svg" alt="logo">
+            <a href="index.html"><img src="image/zootopia.svg" alt="logo"> </a>
+          
             <i class="fa-solid fa-bars"></i>
 
-            <nav>
-                <ul>
-                    <li> <i class="fa-solid fa-magnifying-glass"></i> </li>
-                    <li> <i class="fa-solid fa-cart-shopping"></i></li>
-                    <li> <i class="fa-regular fa-face-smile"></i> </li>
-                </ul>
-            </nav>
+          
+                <div class="header_icons">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                     <i class="fa-solid fa-cart-shopping"></i>
+                     <i class="fa-regular fa-face-smile"></i>
+                    </div>
+            
 
         </header>
         <!-- სექცია 1 დაიწყო -->
@@ -36,63 +37,84 @@
         </section>
         <!-- სექცია 2 დაიწყო -->
         <section class="section2">
-            <h3>ბოლოს დამატებული </h3>
-            <div class="cards">
-                <figure>
-                    <img src="image/pedigree.svg" alt="photo1">
-                    <figcaption>600გრ. 2 kg. 135.30 ლ. <i class="fa-solid fa-cart-shopping"></i></figcaption>
-                </figure>
+            <h2>ბოლოს დამატებული</h2>
 
+        <div class="cards">
 
-
-                <figure> <img src="image/photo2.svg" alt="photo2">
-                    <figcaption> 400გრ. 8 kg. 140.45 ლ. <i class="fa-solid fa-cart-shopping"></i></figcaption>
-                </figure>
-
-                <figure> <img src="image/photo3.svg" alt="photo3">
-                    <figcaption>400გრ. 8 kg. 140.45 ლ. <i class="fa-solid fa-cart-shopping"></i></figcaption>
-                </figure>
-
-                <figure> <img src="image/photo4.svg" alt="photo4">
-                    <figcaption> 600გრ. 8 kg. 140.45 ლ <i class="fa-solid fa-cart-shopping"></i></figcaption>
-                </figure>
-
+            <div class="card">
+                <img class="card_photo" src="image/pedigree.svg" alt="food1">
+                <div class="price_weight">
+                    <div class="box">
+                        <p class="g">600გრ.</p>
+                        <p class="kg">2 კგ.</p>
+                    </div>
+                    <div class="box">
+                        <p class="price1">135.30 ₾</p>
+                        <i class="fa-solid fa-cart-shopping cart"></i>
+                    </div>
+                </div>
             </div>
 
+
+            <div class="card">
+                <img class="card_photo"  src="image/photo2.svg" alt="photo2">
+                <div class="price_weight">
+                <div class="box">
+                    <p class="g">400გრ.</p>
+                    <p class="kg">8 კგ.</p>
+                </div>
+                <div class="box">
+                    <p class="price">140.45 ₾</p>
+                    <i class="fa-solid fa-cart-shopping cart"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+               <img  class="card_photo"src="image/photo3.svg" alt="photo3">
+               <div class="price_weight">
+                <div class="box">
+                    <p class="g">400გრ.</p>
+                    <p class="kg">8 კგ.</p>
+                </div>
+                <div class="box">
+                    <p class="price">140.45 ₾</p>
+                    <i class="fa-solid fa-cart-shopping cart"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+
+            <img  class="card_photo" src="image/photo4.svg" alt="photo4">
+            <div class="price_weight">
+                <div class="box">
+                    <p class="g">400გრ.</p>
+                    <p class="kg">8 კგ.</p>
+                </div>
+                <div class="box">
+                    <p class="price">140.45 ₾</p>
+                    <i class="fa-solid fa-cart-shopping cart"></i>
+                </div>
+            </div>
+        </div>
+    </div>
         </section>
         <!-- ფუთერი დაიწყო -->
         <footer>
-            <img class="footerlogo" src="image/zootopia2.svg" alt="smalllogo">
 
-            <div class="footer_div">
-
-                <h5>კონტაქტი</h5>
-
-                <p>თბილისი, დადიასნი ქ. N:124</p>
-                <p>(+995) 555 333 222</p>
-                <p>example@gmail.com</p>
-
-
-                <!-- დაუსრულებელია, მაგრამ მაინც ვტვირთავ რადგან რაღაც გავაკეთე რაღაცეები გასასწორებელია  -->
-            </div>
-        </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
+            <footer>
+                <img class="footer_logo" src="image/zootopia2.svg" alt="zoo">
+                <div class="footer_contact">
+                    <h3>კონტაქტი</h3>
+                    <p class="contact_text">თბილისი, დადიასნი ქ. N:124 </p>
+                    <p class="contact_text">(+995) 555 333 222</p>
+                    <p class="contact_text">example@gmail.com</p>
+                </div>
+    
+            </footer>
+        </div>
+    
 </body>
 
 </html>
